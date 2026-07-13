@@ -1,0 +1,88 @@
+baseURL = "https://michaelsinko.phd/"
+languageCode = "en-us"
+title = "Michael R Sinko PhD"
+theme = "PaperMod"
+copyright = "© 2026 Michael R Sinko PhD"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = "production"
+  title = "Michael R Sinko PhD"
+  description = "Research, projects, and interesting measurements"
+  author = "Sinko"
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+
+  # Clean, professional theme settings
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  # Home page profile mode
+  [params.homeInfoParams]
+    Title = "Michael R Sinko PhD"
+    Content = "This site chronicles my publicly available research, projects, and interesting measurements."
+
+  # Social icons (can be customized later)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/sinkomr"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "oom"
+    name = "Order of Magnitude"
+    url = "/oom/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+[pagination]
+  pagerSize = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
