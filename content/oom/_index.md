@@ -1,8 +1,6 @@
 ---
 title: "Order of Magnitude"
-description: "Exploring different scales of measurement"
+description: "My life, one unit at a time"
 ---
 
-This page catalogs things I've built or worked on across different orders of magnitude. From the microscopic to the massive, understanding scale provides context for engineering and scientific work.
-
-Each section represents a different order of magnitude with relevant examples, measurements, and projects.
+Some people organize their lives chronologically. This section does it by unit. Each page below takes one physical quantity and walks the powers of ten across the physically reasonable range, with reference points along the way and notes on where my own work and life have touched each scale.
