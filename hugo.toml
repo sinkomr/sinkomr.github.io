@@ -14,6 +14,8 @@ buildExpired = false
   title = "Michael R Sinko PhD"
   description = "Research, projects, and interesting measurements"
   author = "Sinko"
+  # Home page lists projects only (not every Order of Magnitude unit page)
+  mainSections = ["projects"]
 
   [params.assets]
     favicon = "/favicon.ico"
