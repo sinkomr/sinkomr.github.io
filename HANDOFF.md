@@ -6,7 +6,8 @@ Context document for the next collaborator (written 2026-07-13 by the Claude ses
 
 - The owner asked to resume, get something live, and add his vibecoding projects.
 - That session was pinned to `claude/check-jekyll-usage-Q8hdg`, so the review branch was merged into it (merge commit, tree taken wholesale from the review branch) and work continued there. **`claude/check-jekyll-usage-Q8hdg` is now the most recent branch** and contains everything on the review branch. Draft PR #1 still points at the review branch and does not include the November work.
-- Projects: seven pages added under `content/projects/` as page bundles, one per public repo (ConductVac, PolyPack, inferplot, PLCsim, OpenPaperReviewer, HumanBench, Spherescue). Text is condensed from each repo's README, nothing invented. His private repos were deliberately left off; he has not said which of those he wants public.
+- Projects: six pages added under `content/projects/` as page bundles, one per public repo (ConductVac, PolyPack, inferplot, OpenPaperReviewer, HumanBench, Spherescue). Text is condensed from each repo's README, nothing invented. His private repos were deliberately left off; he has not said which of those he wants public.
+- PLCsim had a page briefly; the owner asked for it to be removed before shipping. Do not re-add it without asking.
 - Live demo links were not verifiable from the sandbox (github.io and fly.dev were blocked). Only PolyPack links to a site (`polypack.fly.dev`, taken from that repo's docs). Add demo links for the others once confirmed.
 - Home page: the duplicated blurb was removed and `params.mainSections = ["projects"]` now makes the home page list projects instead of every OoM unit page. The blurb itself is still the original.
 - Hugo 0.147.7 (the CI pin) downloads fine from GitHub releases in current sandboxes.
@@ -76,7 +77,7 @@ His signature section. Structure he specified: the section index lists **units**
 ### Home page: OPEN ITEM
 Still shows the original blurb from `hugo.toml` `[params.homeInfoParams]` ("This site chronicles my publicly available research, projects, and interesting measurements."), which predates the About rewrite. Options raised with him but undecided: refresh the blurb in his newer voice, or switch PaperMod to profile mode (centered name/photo/buttons). A design pass is the natural place to settle this.
 
-### Projects (`content/projects/`): SEVEN SOFTWARE PROJECTS (see the 2026-11-11 update)
+### Projects (`content/projects/`): SIX SOFTWARE PROJECTS (see the 2026-11-11 update)
 As of July: landing page intro only; `example-project.md` is a `draft: true` template. No real projects gathered yet. He has obvious candidates (PCB line, nanoimprint system, woodworking/3D printing builds) but has not been interviewed for these.
 
 ### Images: NONE YET
