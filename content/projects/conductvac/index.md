@@ -14,7 +14,7 @@ cover:
 
 Build a vacuum system out of a parts library (chambers, tubes, fittings, valves, pumps, gauges, leaks), then watch it pump down from atmosphere to UHV. The gas dynamics are regime-aware, and everything runs client-side in the browser.
 
-Code: [github.com/sinkomr/ConductVac](https://github.com/sinkomr/ConductVac)
+**[Open ConductVac](https://michaelsinko.phd/ConductVac/)** · Code: [github.com/sinkomr/ConductVac](https://github.com/sinkomr/ConductVac)
 
 ## What it does
 
