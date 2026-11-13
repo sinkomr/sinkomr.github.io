@@ -67,11 +67,12 @@ buildExpired = false
     url = "/projects/"
     weight = 20
 
-  [[menu.main]]
-    identifier = "oom"
-    name = "Order of Magnitude"
-    url = "/oom/"
-    weight = 30
+  # Order of Magnitude is hidden for now (see content/oom/_index.md).
+  # [[menu.main]]
+  #   identifier = "oom"
+  #   name = "Order of Magnitude"
+  #   url = "/oom/"
+  #   weight = 30
 
   [[menu.main]]
     identifier = "about"
