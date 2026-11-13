@@ -10,7 +10,7 @@ tags: ["vibecoding", "cognition"]
 
 HumanBench is a free, browser-based battery of short cognitive tasks. Instead of a single score, it draws your results as a "jagged blob": one spike per ability, with its uncertainty shown.
 
-Code: [github.com/sinkomr/humanbench](https://github.com/sinkomr/humanbench)
+**[Open HumanBench](https://michaelsinko.phd/humanbench/)** · Code: [github.com/sinkomr/humanbench](https://github.com/sinkomr/humanbench)
 
 It is for curiosity and self-reflection. It is not an IQ test, a clinical assessment, or a basis for decisions about education, employment, or health.
 
