@@ -5,6 +5,8 @@ draft: false
 weight: 20
 summary: "Pack congruent polygons or circles into the smallest container, and compete for records."
 description: "Pack congruent polygons or circles into the smallest container, and compete for records."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://polypack.fly.dev"
 tags: ["vibecoding", "math", "optimization"]
 ---
 

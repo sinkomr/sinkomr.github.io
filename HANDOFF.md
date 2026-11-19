@@ -10,6 +10,7 @@ Context document for the next collaborator (written 2026-07-13 by the Claude ses
 - PLCsim had a page briefly; the owner asked for it to be removed before shipping. Do not re-add it without asking.
 - **Order of Magnitude is hidden from the live site** (2026-11-13, owner's request: it is not personalized yet). The source is untouched in `content/oom/`; a `build`/`cascade` block in `content/oom/_index.md` stops Hugo rendering it and the menu entry in `hugo.toml` is commented out. Undo both to bring it back.
 - V2 shipped on 2026-11-11 (PR #2 merged to main; deploy workflow works).
+- Project titles on list pages link out to the project: each project's front matter has `projectURL` (the hosted app if there is one, otherwise the repo), rendered by `layouts/list.html` (a copy of PaperMod's with that one change) and styled in `assets/css/extended/projects.css`. The rest of each card still opens the write-up.
 - Live demo links were not verifiable from the sandbox (github.io and fly.dev were blocked). Only PolyPack links to a site (`polypack.fly.dev`, taken from that repo's docs). Add demo links for the others once confirmed.
 - Home page: the duplicated blurb was removed and `params.mainSections = ["projects"]` now makes the home page list projects instead of every OoM unit page. The blurb itself is still the original.
 - Hugo 0.147.7 (the CI pin) downloads fine from GitHub releases in current sandboxes.

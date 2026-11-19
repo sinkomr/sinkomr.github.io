@@ -5,6 +5,8 @@ draft: false
 weight: 60
 summary: "A free, browser-based battery of short cognitive tasks that draws your results as a jagged blob."
 description: "A free, browser-based battery of short cognitive tasks that draws your results as a jagged blob."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://michaelsinko.phd/humanbench/"
 tags: ["vibecoding", "cognition"]
 ---
 

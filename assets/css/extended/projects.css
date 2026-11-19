@@ -1,0 +1,13 @@
+/* Project titles on list pages link out to the project itself.
+   Lift the link above the card-wide overlay link, which still opens the write-up. */
+.entry-title-link {
+    position: relative;
+    z-index: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.entry-title-link:hover {
+    text-decoration-thickness: 2px;
+}

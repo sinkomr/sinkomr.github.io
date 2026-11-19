@@ -5,6 +5,8 @@ draft: false
 weight: 10
 summary: "A vacuum system builder and pump-down simulator that runs in the browser."
 description: "A vacuum system builder and pump-down simulator that runs in the browser."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://michaelsinko.phd/ConductVac/"
 tags: ["vibecoding", "vacuum", "simulation"]
 cover:
   image: "builder.png"
