@@ -5,6 +5,8 @@ draft: false
 weight: 70
 summary: "A browser tribute to Tetrisphere, rebuilt from scratch in plain JavaScript."
 description: "A browser tribute to Tetrisphere, rebuilt from scratch in plain JavaScript."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://github.com/sinkomr/spherescue"
 tags: ["vibecoding", "games"]
 cover:
   image: "social-card.png"

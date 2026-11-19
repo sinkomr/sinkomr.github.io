@@ -5,6 +5,8 @@ draft: false
 weight: 10
 summary: "A vacuum system builder and pump-down simulator that runs in the browser."
 description: "A vacuum system builder and pump-down simulator that runs in the browser."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://michaelsinko.phd/ConductVac/"
 tags: ["vibecoding", "vacuum", "simulation"]
 cover:
   image: "builder.png"
@@ -14,7 +16,7 @@ cover:
 
 Build a vacuum system out of a parts library (chambers, tubes, fittings, valves, pumps, gauges, leaks), then watch it pump down from atmosphere to UHV. The gas dynamics are regime-aware, and everything runs client-side in the browser.
 
-Code: [github.com/sinkomr/ConductVac](https://github.com/sinkomr/ConductVac)
+**[Open ConductVac](https://michaelsinko.phd/ConductVac/)** · Code: [github.com/sinkomr/ConductVac](https://github.com/sinkomr/ConductVac)
 
 ## What it does
 

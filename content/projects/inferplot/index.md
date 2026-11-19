@@ -5,6 +5,8 @@ draft: false
 weight: 30
 summary: "A Python library that draws a statistical plot and writes the full test result on the figure."
 description: "A Python library that draws a statistical plot and writes the full test result on the figure."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://github.com/sinkomr/inferplot"
 tags: ["vibecoding", "python", "statistics"]
 cover:
   image: "betweenstats.png"

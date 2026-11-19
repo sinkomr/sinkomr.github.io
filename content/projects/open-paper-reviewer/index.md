@@ -5,6 +5,8 @@ draft: false
 weight: 50
 summary: "An open method for reviewing a scientific paper claim by claim with an LLM."
 description: "An open method for reviewing a scientific paper claim by claim with an LLM."
+# Where the title on the projects list links: the app if hosted, otherwise the code.
+projectURL: "https://github.com/sinkomr/OpenPaperReviewer"
 tags: ["vibecoding", "science", "ai"]
 ---
 
